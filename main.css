@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+
+
+
+body{
+    background-color: hsl(212, 45%, 89%);
+    font-family: 'Outfit', sans-serif; 
+
+}
+
+
+section .container header{
+    background-color: hsl(0, 0%, 100%);
+    width: 300px;
+    padding: 15px;
+    border-radius: 20px;
+
+
+    img{
+        width: 250px;
+        border-radius: 5px;
+    }
+    .paragraph-container{
+        font-size: 15px;
+        margin-top: 20px;
+
+        .first-paragraph{
+            color: hsl(218, 44%, 22%);
+            font-weight: 700;
+        }
+        .second-paragraph{
+            color:hsl(220, 15%, 55%);
+            font-weight: 400;
+        }
+    }
+    /* font-weight: 400; */
+} 
